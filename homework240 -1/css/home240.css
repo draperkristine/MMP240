@@ -1,0 +1,22 @@
+img{
+height:200px;
+width:600px;
+}
+ul.nav.navbar-nav {
+    padding-left:350px;
+}
+section.col-md-6 {
+	font-family: 'Allura', cursive;
+	font-weight:800;
+	font-size:20px;
+	color:black;
+	text-shadow: 3px 0px 2px #FF0000, 5px 2px 2px #1000FF;
+}
+h3{
+	font-weight:800;
+	line-height:1.2px;
+}
+
+body{
+	background-color:black;
+}

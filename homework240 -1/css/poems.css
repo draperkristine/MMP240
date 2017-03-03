@@ -1,0 +1,22 @@
+body{
+	background: url(../images/path.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size:  cover;
+	font-family: 'Nothing You Could Do', cursive;
+	color:#FCBF51;
+	font-size:15px;
+	color: white;
+	font-weight:800;
+    text-shadow: 2px 2px 6px #AB3B00;
+}
+img{
+height:200px;
+width:600px;
+}
+ul.nav.navbar-nav {
+    padding-left:350px;
+}
+h3{
+	font-weight:800;
+}
