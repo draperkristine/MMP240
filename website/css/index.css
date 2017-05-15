@@ -1,0 +1,22 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Rancho', cursive;
+    font-size:20px;
+    background-color:black;
+    color:black;
+    text-shadow:2px 2px 10px  gold;
+}
+nav a:link, nav a:visited{
+	font-size:1.5em;
+    text-shadow:3px 4px 1px ;
+}
+nav a:hover{
+    color:blue;
+    
+}
+nav a{
+    text-decoration: underline;
+}
