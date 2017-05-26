@@ -1,0 +1,82 @@
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #A1E51C; /* yellow green*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2D4008;/*darkgreen*/
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.mission{
+    margin:30px;
+    background-color:#ffffff;
+    opacity:0.6;
+    filter:alpha(opacity = 60);
+}
+
+body{
+    background:#C0FF52;
+    background:-webkit-linear-gradient(left, #C0FF52, #8DFF89);
+    background:-o-linear-gradient(right, #C0FF52, #8DFF89);
+    background:-moz-linear-gradient(right, #C0FF52, #8DFF89);
+    background:linear-gradient(to right, #C0FF52, #8DFF89);
+    margin:12px;
+}
+
+footer{
+    text-align:center;
+}
+
+.healthy{
+    margin:20px;
+    text-align:center;
+    background-color:#ffffff;
+    opacity:0.5;
+    filter:alpha(opacity = 60);
+    display:block;
+}
+h4{
+    font-size: 24px;
+    font-weight:bold;
+}
