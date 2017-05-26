@@ -107,11 +107,3 @@ p{
 #gmo{
     max-width:400px;
 }
-.healthy{
-    margin:20px;
-    text-align:center;
-    background-color:#ffffff;
-    opacity:0.5;
-    filter:alpha(opacity = 60);
-    display:block;
-}

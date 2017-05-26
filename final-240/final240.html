@@ -31,20 +31,32 @@
 <span onclick="openNav()">open</span>
 
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="form">
+  <h4>Let us send you some information</h4>
+  <form>
+    First name:<br>
+    <input type="text" name="firstname"><br>
+    Last name:<br>
+    <input type="text" name="lastname">
+  </form>
+</div>
 
-<div class="container">
+<textarea rows="4" cols="50"> 
+    comments here
+  </textarea>
+  <button type="buttom">Send</button>
+<div class="container" id="img">
   <div class='row'>
     <section class="col-md-6">
-      <img src="images/healthy-foods.jpg"  width="600" height="400" class="img-responsive">
-    </section>
-    <section class="col-md-6">
-      <img src="images/healthy-living.jpg" width="600" height="400" class="img-responsive">
-    </section>
-    <section clas="col-md-6">
-      <img src="images/olive-oil.jpg" width="600" height="400" class="img-responsive"> 
+      <img src="images/healthy-foods.jpg" class="img-responsive">
+   
+      <img src="images/healthy-living.jpg"  class="img-responsive">
+    
+      <img src="images/olive-oil.jpg"  class="img-responsive"> 
     </section>
   </div>
 </div>
+
 <div class="footer">
 <footer>
   <a href="/privdoc.php">privacy policy and visitor agreement</a>

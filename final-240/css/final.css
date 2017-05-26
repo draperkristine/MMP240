@@ -73,16 +73,33 @@ body{
 footer{
     text-align:center;
 }
-img{
-    position:relative;
-    background-position:50% 50%;
-    background-repeat:no-repeat;
-    background-size:cover;
-    overflow:hidden;
-
+#img{
+    position: relative;
+    float-right:400px;
+    width:  600px;
+    height: 600px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
 }
 .health{
     line-height:2.5px;
     
 }
 
+#form{
+   position:absolute;
+   left:700px;
+   top:800px;
+}
+
+textarea{
+    position:absolute;
+    left:700px;
+    top:950px;
+}
+button{
+    position:absolute;
+    left:1020px;
+    top:1050px;
+}
